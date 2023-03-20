@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Lógica de programação com Javascript</h1>
+        
+        <script>
+            
+            //pedir para o usuario digitar um numero
+            var n1 = prompt("Digite um numero!");
+                                                            
+            //converter em numero inteiro
+            n1 = parseInt(n1);
+                                                
+            //pedir para o usuario digitar outro numero
+            var n2 = prompt("Digite outro numero!");
+                        
+            //converter em numero inteiro
+            n2 = parseInt(n2);
+                        
+            /*
+            mostrar num alert o seguinte texto
+            o resto da divisão de (n1) por (n2) é: (resultado); 
+            */
+            var resto = n1 % n2;
+            alert("O resto da divisao de " + (n1) + " por "+ (n2) + " é: " + resto );
+            /*
+            alert("O resto da divisão de " + n1 + " por " + n2 + " é: " (n1 % n2));
+            */
+            
+            /*
+            mostrar num alert o seguinte texto
+            o numero (n1) elevado a (n2) é: (resultado); 
+            */
+            var potencia = n1 ** n2;
+            alert("O numero " + (n1) + " elevado a " + (n2) + " é: " + potencia);     
+            /*
+            alert("O numero "+ n1 + "elavado a " + n2 + " é? " (n1 ** n2));
+            */
+            
+        </script>
+    </body>
+</html>
